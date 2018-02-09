@@ -2,6 +2,9 @@
 import os
 import sys
 
+import colored_traceback
+colored_traceback.add_hook()
+
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "politkarma.settings")
 
